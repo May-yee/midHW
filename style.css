@@ -229,7 +229,45 @@ a {
 		height: 50px;
 	}
 }
+/* --------- *\
+	Warn
+\* --------- */
+.warn{
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	z-index: 23;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #F0F0F0;
+	padding: 20px;
+}
+.warn_content{
+	border: 4px #213555 solid;
+	height: 100%;
+	padding: 20px;
+	font-size: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 600;
+}
+.warn_content button{
+	padding: 8px 12px;
+	border: 2px #213555 solid;
 
+}
+.warn_content button:hover{
+	border: 2px #E5D283 solid;
+	background-color: #4F709C;
+	color: #E5D283;
+}
+.warn_btn{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 80px;
+}
 /* --------- *\
 	Hero
 \* --------- */

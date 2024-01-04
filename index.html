@@ -66,6 +66,18 @@
             </a>
         </ul>
     </div>
+    <div class="warn">
+        <div class="warn_content">
+            <p>是否已滿18歲</p>
+            <p>台灣合法飲酒年齡為18歲</p>
+            <p>請確認您已年滿18歲</p>
+            <div class="warn_btn">            
+                <button id="yes">是</button>
+                <button>否</button>
+            </div>
+
+        </div>
+    </div>
     <!-- Hero -->
     <div class="hero">
         <img src="images/水月.png" alt="">
@@ -621,6 +633,11 @@
         })
         $('.product_picture').click(function (){
             $('.product_picture').css("display","none");
+        })
+
+        //warn
+        $('#yes').click(function (){
+            $('.warn').hide();
         })
     })
 </script>
