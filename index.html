@@ -66,15 +66,16 @@
             </a>
         </ul>
     </div>
-    <div class="warn">
-        <div class="warn_content">
-            <p>台灣合法飲酒年齡為18歲</p>
-            <p>請確認您是否已年滿18歲</p>
-            <div class="warn_btn">            
-                <button id="yes">是</button>
-                <button>否</button>
+    <div class="warn_bg">
+        <div class="warn">
+            <div class="warn_content">
+                <p>台灣合法飲酒年齡為18歲</p>
+                <p>請確認您是否已年滿18歲</p>
+                <div class="warn_btn">            
+                    <button id="yes">是</button>
+                </div>
+    
             </div>
-
         </div>
     </div>
     <!-- Hero -->
@@ -636,6 +637,7 @@
 
         //warn
         $('#yes').click(function (){
+            $('.warn_bg').hide();
             $('.warn').hide();
         })
     })

@@ -232,9 +232,17 @@ a {
 /* --------- *\
 	Warn
 \* --------- */
+.warn_bg{
+	z-index: 22;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgb(255, 255, 255,90%);
+}
 .warn{
 	width: 400px;
-	height: 400px;
 	position: fixed;
 	z-index: 23;
 	top: 50%;
@@ -255,18 +263,19 @@ a {
 .warn_content button{
 	padding: 8px 12px;
 	border: 2px #213555 solid;
+	font-family: 'Noto Serif JP', serif;
 
 }
 .warn_content button:hover{
-	border: 2px #E5D283 solid;
-	background-color: #4F709C;
-	color: #E5D283;
+	border: 2px #F0F0F0 solid;
+	background-color: #213555;
+	color: #F0F0F0;
 }
 .warn_btn{
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
-	margin-top: 80px;
+	margin-top: 40px;
 }
 /* --------- *\
 	Hero
