@@ -277,6 +277,12 @@ a {
 	background-color: #213555;
 	color: #F0F0F0;
 }
+@media screen and (max-width: 700px){
+	.warn{
+		width: 280px;
+	}
+}
+
 /* --------- *\
 	Hero
 \* --------- */
